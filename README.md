@@ -16,13 +16,13 @@ Use the table below to navigate to each assignment submission.
 
 | Assignment Name | Description | Link |
 |------------|-------------|------|
-| Lab 01     | GitHub Setup | [Lab01](Module 1/Lab01/README.md) |
-| Lab 02     | ArcGIS Online | [Lab02](Module 2/Lab02/README.md) |
-| Lab 03     | Build Your Web Resume      | [Lab03](Module 3/Lab03/README.md) |
-| Lab 04     | JS/JSON Programming           | [Lab04](Module 4/Lab04/README.md) |
-| Lab 05     | Basic JS Mapping with Leaflet  | [Lab05](Module 5/Lab05/README.md) |
-| Lab 06     | Advanced Javascript Mapping       | [Lab06](Module 6/Lab06/README.md) |
-| Lab 07     | ArcGIS Story Map                         | [Lab07](Module 7/Lab07/README.md) |
-| Lab 08     | Interactive Charts                         | [Lab08](Module 8/Lab08/README.md) |
+| Lab 01     | GitHub Setup | [Lab01](Module_1/Lab01/README.md) |
+| Lab 02     | ArcGIS Online | [Lab02](Module_2/Lab02/README.md) |
+| Lab 03     | Build Your Web Resume      | [Lab03](Module_3/Lab03/README.md) |
+| Lab 04     | JS/JSON Programming           | [Lab04](Module_4/Lab04/README.md) |
+| Lab 05     | Basic JS Mapping with Leaflet  | [Lab05](Module_5/Lab05/README.md) |
+| Lab 06     | Advanced Javascript Mapping       | [Lab06](Module_6/Lab06/README.md) |
+| Lab 07     | ArcGIS Story Map                         | [Lab07](Module_7/Lab07/README.md) |
+| Lab 08     | Interactive Charts                         | [Lab08](Module_8/Lab08/README.md) |
 
 
