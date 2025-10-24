@@ -56,4 +56,4 @@ The following deliverables were produced for this lab:
 3. Analyze volcano shelter access in Hawaii (https://learn.arcgis.com/en/projects/analyze-volcano-shelter-access-in-hawaii/)
 4. Introduction to ArcGIS Experience Builder (https://doc.arcgis.com/en/experience-builder/latest/get-started/what-is-arcgis-experience-builder.htm)
 5. ArcGIS Experience Builder: An Introduction (https://www.esri.com/content/dam/esrisites/en-us/events/conferences/2021/user-conference/tech-sessions/13038-arcgis-experience-builder-introduction.pdf)
-6.  PowerPoint by Debayan Mandal (Relative Link Here)
+6.  PowerPoint by Debayan Mandal (https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_2/Lab02/Instructions/Lab2_MGsc.pptx))
