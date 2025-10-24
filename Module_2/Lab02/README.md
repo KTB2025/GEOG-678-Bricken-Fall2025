@@ -33,14 +33,12 @@ The following deliverables were produced for this lab:
 ---
 
 ### Screenshots
-![CountyHealth2022AlabamaMap](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/b142399127517a9760665df99786d34d9140893d/Module_2/Lab02/Images/CountyHealth2022AlabamaMap.png)
-![GEOG678_Collector_Bricken](Module_2\Lab02\Images\GEOG678_Collector_Bricken.PNG)
-![HawaiiIslandShelterAccessMap](Module_2\Lab02\Images\HawaiiIslandShelterAccessMap.png)
-![MyFirstExperience](Module_2\Lab02\Images\MyFirstExperience.png)
-![MyFirstWebApp_WithoutPopUp](Module_2\Lab02\Images\MyFirstWebApp_WithoutPopUp.png)
-![MyFirstWebApp_WithPopUp](Module_2\Lab02\Images\MyFirstWebApp_WithPopUp.png)
-
-
+![CountyHealth2022AlabamaMap](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_2/Lab02/Images/CountyHealth2022AlabamaMap.png)
+![MyFirstWebApp_WithoutPopUp](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_2/Lab02/Images/MyFirstWebApp_WithoutPopUp.png)
+![MyFirstWebApp_WithPopUp](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_2/Lab02/Images/MyFirstWebApp_WithPopUp.png)
+![GEOG678_Collector_Bricken](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_2/Lab02/Images/GEOG678_Collector_Bricken.PNG)
+![HawaiiIslandShelterAccessMap](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_2/Lab02/Images/HawaiiIslandShelterAccessMap.png)
+![MyFirstExperience](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_2/Lab02/Images/MyFirstExperience.png)
 
 
 ---
