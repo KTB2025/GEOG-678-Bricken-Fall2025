@@ -33,7 +33,7 @@ The following deliverables were produced for this lab:
 ---
 
 ### Screenshots
-![CountyHealth2022AlabamaMap](Module_2/Lab02/Images/CountyHealth2022AlabamaMap.png)
+![CountyHealth2022AlabamaMap](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/b142399127517a9760665df99786d34d9140893d/Module_2/Lab02/Images/CountyHealth2022AlabamaMap.png)
 ![GEOG678_Collector_Bricken](Module_2\Lab02\Images\GEOG678_Collector_Bricken.PNG)
 ![HawaiiIslandShelterAccessMap](Module_2\Lab02\Images\HawaiiIslandShelterAccessMap.png)
 ![MyFirstExperience](Module_2\Lab02\Images\MyFirstExperience.png)
