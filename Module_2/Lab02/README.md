@@ -33,7 +33,7 @@ The following deliverables were produced for this lab:
 ---
 
 ### Screenshots
-![CountyHealth2022AlabamaMap](Module_2\Lab02\Images\CountyHealth2022AlabamaMap.png)
+![CountyHealth2022AlabamaMap](Module_2/Lab02/Images/CountyHealth2022AlabamaMap.png)
 ![GEOG678_Collector_Bricken](Module_2\Lab02\Images\GEOG678_Collector_Bricken.PNG)
 ![HawaiiIslandShelterAccessMap](Module_2\Lab02\Images\HawaiiIslandShelterAccessMap.png)
 ![MyFirstExperience](Module_2\Lab02\Images\MyFirstExperience.png)
