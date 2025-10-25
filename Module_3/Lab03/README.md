@@ -7,6 +7,7 @@
 ### Assignment Overview
 
 This lab will provide experience in learning about html and CSS, which will then be used to create a professional looking web resume. 
+
 ---
 
 ### Tasks
