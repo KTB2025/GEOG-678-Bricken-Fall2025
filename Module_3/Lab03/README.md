@@ -5,51 +5,51 @@
 **Assignment Due Date:** November 10th 2025
 
 ### Assignment Overview
-
-
+This lab will provide experience in learning about html and CSS, which will then be used to create a professional looking web resume. 
 ---
 
 ### Tasks
-### Task 1: Finish the online tutorial 25pts
+### Task 1: Finish the online tutorial
 1. Sign up for CodeAcademy at https://www.codecademy.com/
 2. Tutorial one - Introduction to HTML at https://www.codecademy.com/learn/learn-html 
 Finish **lesson 1 - Elements and Structure and lesson 2 - Tables** 
-3. Tutorial two - Learn CSS at https://www.codecademy.com/learn/learn-css Finish **lesson 1- Selectors and Visual Rules*
+3. Tutorial two - Learn CSS at https://www.codecademy.com/learn/learn-css
+Finish **lesson 1- Selectors and Visual Rules*
 
 
-### Task 2: Build your own resume site 75 pts
-1. Create a **.html** file in your lab\week03 folder
-2. Based on the syntax you learned in Task 1, build your own professional looking resume site
-    - You have to include your contact information, education, experience, skills, etc
-    - You have to use at least **SIX different tags** in your file
-    - You have to include several paragraphs\<p>, hyperlink\<a href=>, unordered list \<ul>, different level headers \<h1>-\<h4>
-    - You have to use two or more font colors
-    - You have to use CSS to align your resume
+### Task 2: Build resume site
+1. Create a **.html** file in lab\week03 folder
+2. Based on the syntax learned in Task 1, build a professional looking resume site
+    - Include your contact information, education, experience, skills, etc
+    - Use at least **SIX different tags** in your file
+    - Include several paragraphs\<p>, hyperlink\<a href=>, unordered list \<ul>, different level headers \<h1>-\<h4>
+    - Use two or more font colors
+    - Use CSS to align your resume
 
 
 ---
 
 ### Output
 The following deliverables were produced for this lab:
-
-
-**Expected Output:**  
-
+1. Screenshot of HTML course completion
+2. Screenshot of CSS course completion
+3. Professional web resume created using html and css
 
 ---
 
 ### Screenshots
-
+![HTMLCompletionBricken](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_3/Lab03/Images/HTMLCompletionBricken.png)
+![CSSCompletionBricken](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_3/Lab03/Images/CSSCompletionBricken.png)
+![BrickenResume1](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_3/Lab03/Images/BrickenResume1.png)
+![BrickenResume2](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_3/Lab03/Images/BrickenResume2.png)
 ---
 
 ### Items to Submit
-1. GitHub repository link containing all project files   
-- **Github:**
-1. upload your .html files, css files(if you have), and other files related to your web resume to your github repository labs\week3\ folder
-- **ECampus:**
-1. screenshot of your resume site showing all the required web elements.
-2. screenshot showing completion records for code academy courses.
-3. submit the link of your Github lab\03\folder to eCampus.
+1. GitHub repository link containing all project files
+Upload  .html files, css files(if you have), and other files related to the web resume to github repository labs\week3\ folder
+2. screenshot of the resume site showing all the required web elements.
+3. screenshot showing completion records for code academy courses.
+4. submit the link of the Github lab\03\folder to eCampus.
 ---
 
 ### References
