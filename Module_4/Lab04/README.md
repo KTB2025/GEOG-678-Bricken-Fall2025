@@ -4,6 +4,7 @@
 **Course:** GEOG 678 - Web GIS
 **Assignment Due Date:** November 18th 2025
 
+---
 
 ### Assignment Overview
 
@@ -48,7 +49,7 @@ The following deliverables were produced for this lab:
 ---
 
 ### Screenshots
-![ConsoleOutput]
+![ConsoleOutput](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_4/Lab04/Images/Lab04ConsoleOutput.png)
 ---
 
 ### Items to Submit
