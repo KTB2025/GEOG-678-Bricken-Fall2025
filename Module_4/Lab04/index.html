@@ -1,24 +1,24 @@
-```html
-
+//Task#1: Create a basic HTML document that includes an external JavaScript file named "script.js". //
 <!DOCTYPE html> 
 <!-- First line of code in all of your HTML documents. Declaration of version of HTML -->
 
 <html> 
 <!-- Container for the document-->
 
-    <!-- Pull in the code within an external javascript file (located in the same directory) -->
-    <script src='script.js'></script>
 
     <!-- Setting a creative title for the page -->
     <head>
-      <title> Lab 4 </title>
+      <title> GEOG678 Lab 4 </title>
     </head>
 
-    <!-- The body of our document which contains things to be rendered by the browser-->
     <body> 
+      <!-- Pull in the data file first -->
+      <script src='data.js'></script>
+      <!-- Pull in the main script file -->
+      <script src='script.js'></script>
 
-        <!-- Make a button -->
-        <input type='button' value='Click Me!'></input>
-    </body>
+      //Task #2: Create a button that calls the Run() function when clicked.//
+        <input type='button' value='Click Me!' onclick='Run();'></input>
+
+  </body>
 </html>
-```
