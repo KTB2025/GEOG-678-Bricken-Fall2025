@@ -1,4 +1,4 @@
-/*Task 3: Create the Run() Function*/
+//Task 3: Create the Run() Function//
 
 function Run()
 {
@@ -22,7 +22,7 @@ function Run()
     console.log("Bounding box computed for KateBricken@tamu.edu: ");
     console.log(boundingBox);
 }
-//Task#4: Create JavaScript functions to calculate the bounding box of the data file//
+//Task 4: Create JavaScript functions to calculate the bounding box of the data file//
 
 // Function to find top left corner (Max Lat, Min Lon)
 function findTopLeft(data) {
@@ -84,7 +84,7 @@ function findBottomRight(data) {
     return findPoint(data, minLat, maxLon);
 }
 
-// Helper function to find the closest point to target coordinates
+// Helper function to find the closest point to target coordinates//
 function findPoint(data, targetLat, targetLon) {
     var bestMatch = data[0];
     var minDistance = Math.abs(data[0].lat - targetLat) + Math.abs(data[0].lon - targetLon);
