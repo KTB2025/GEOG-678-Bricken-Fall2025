@@ -2,51 +2,48 @@
 <html>
 <head>
     <title>Kate Bricken First Web Map</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
         crossorigin=""/>
     <style>
-        body {
+        html, body {
             margin: 0;
             padding: 0;
             height: 100%;
         }
         #map {
-             width: 100%;
-            height: 100%;
+            height: 100vh;
+            width: 100%;
         }
     </style>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-        crossorigin="">
-    </script>
 </head>
 <body>
     <div id="map"></div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+    
     <script>
-        // Initialize the map
-        var map = L.map('map').fitWorld();
+        console.log("Script starting...");
+        
+        // Initialize the map with consistent Kyle Field coordinates
+        var map = L.map('map').setView([30.6084, -96.3402], 15);
+        console.log("Map initialized");
 
-        // Add OpenStreetMap tiles
+        // Add OpenStreetMap tile layer
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '© OpenStreetMap'
         }).addTo(map);
-
-         // TAMU landmarks coordinates
-        var kyleField = [30.6084, -96.3402];
-        var omBuilding = [30.6179, -96.3386];
-        var academicBuilding = [30.6159, -96.3413];
+        console.log("Tile layer added");
 
         // Try to locate the user
         map.locate({setView: true, maxZoom: 16});
 
         // Location found event handler
         function onLocationFound(e) {
+            console.log("Location found:", e.latlng);
             var radius = e.accuracy / 2;
 
             L.marker(e.latlng).addTo(map)
@@ -57,62 +54,76 @@
 
         // Location error event handler
         function onLocationError(e) {
-            // If geolocation fails, center on Kyle Field
-            map.setView([30.6084, -96.3402], 16);
-            alert("Location access was denied or unavailable. Map centered on Kyle Field.");
+            console.log("Location error:", e.message);
+            // Keep the map at Kyle Field view
+            map.setView([30.6084, -96.3402], 15);
+            console.log("Fallback to Kyle Field view");
         }
 
         // Event listeners for location
         map.on('locationfound', onLocationFound);
         map.on('locationerror', onLocationError);
 
-        // TODO: Create a circle around Kyle Field with popup
-        var kyleFieldCircle = L.circle([30.6084, -96.3402], {
+        // Create a circle around Kyle Field with popup (using more accurate coordinates)
+        var kyleFieldCircle = L.circle([30.6100, -96.3406], {
             color: 'maroon',
             fillColor: '#500000',
             fillOpacity: 0.5,
             radius: 200
         }).addTo(map);
         kyleFieldCircle.bindPopup("<b>Kyle Field</b><br>Home of the Texas A&M Aggies!<br>Capacity: 102,733");
+        console.log("Kyle Field circle added");
 
-        // TODO: Create custom icons for O&M and Academic Building
-        var buildingIcon = L.icon({
-            iconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-2x-red.png',
-            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-            iconSize: [25, 41],
-            iconAnchor: [12, 41],
-            popupAnchor: [1, -34],
-            shadowSize: [41, 41]
-        });
+        // Create custom icons with fallback
+        var omBuildingIcon, academicBuildingIcon;
+        
+        try {
+            omBuildingIcon = L.icon({
+                iconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-2x-red.png',
+                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+            });
 
-       
-        var academicIcon = L.icon({
-            iconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-2x-blue.png',
-            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-            iconSize: [25, 41],
-            iconAnchor: [12, 41],
-            popupAnchor: [1, -34],
-            shadowSize: [41, 41]
-        });
+            academicBuildingIcon = L.icon({
+                iconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-2x-blue.png',
+                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+            });
+        } catch (error) {
+            console.log("Custom icons failed to load, using default icons");
+            omBuildingIcon = undefined;
+            academicBuildingIcon = undefined;
+        }
 
-        // Add O&M Building marker with custom icon
-        var omBuilding = L.marker([30.6179, -96.3386], {icon: buildingIcon}).addTo(map);
-        omBuilding.bindPopup("<b>O&M Building</b><br>Operations & Maintenance<br>Texas A&M University<br>Coordinates: [30.6179, -96.3386]");
+        // Add O&M Building marker (using more accurate coordinates)
+        var omBuilding = L.marker([30.6178, -96.3367], omBuildingIcon ? {icon: omBuildingIcon} : {}).addTo(map);
+        omBuilding.bindPopup("<b>O&M Building</b><br>Operations & Maintenance<br>Texas A&M University<br>Coordinates: [30.6178, -96.3367]");
+        console.log("O&M Building marker added");
 
-        // Add Academic Building marker with custom icon
-        var academicBuilding = L.marker([30.6159, -96.3413], {icon: academicIcon}).addTo(map);
-        academicBuilding.bindPopup("<b>Academic Building</b><br>Texas A&M University<br>Coordinates: [30.6159, -96.3413]");
+        // Add Academic Building marker (using more accurate coordinates)
+        var academicBuilding = L.marker([30.6158, -96.3408], academicBuildingIcon ? {icon: academicBuildingIcon} : {}).addTo(map);
+        academicBuilding.bindPopup("<b>Academic Building</b><br>Texas A&M University<br>Coordinates: [30.6158, -96.3408]");
+        console.log("Academic Building marker added");
 
-        // TODO: Create click event to show coordinates in popup
+        // Create click event to show coordinates in popup
         function onMapClick(e) {
-            var popup = L.popup()
+            console.log("Map clicked at:", e.latlng);
+            L.popup()
                 .setLatLng(e.latlng)
                 .setContent("<b>You clicked here!</b><br>Coordinates:<br>Latitude: " + e.latlng.lat.toFixed(6) + "<br>Longitude: " + e.latlng.lng.toFixed(6))
                 .openOn(map);
         }
-
+        
         map.on('click', onMapClick);
-
+        console.log("Click event listener added");
+        
+        console.log("Script completed successfully");
     </script>
 </body>
 </html>
