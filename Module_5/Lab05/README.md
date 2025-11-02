@@ -13,9 +13,6 @@ This lab will cover Leaflet basics for web map applications including:
 2) working with markers, polylines and popups
 3) dealing with events
 
-
-
-
 ---
 
 ### Tasks
@@ -37,10 +34,7 @@ This lab will cover Leaflet basics for web map applications including:
 ---
 
 ### Output
-The following deliverables were produced for this lab:
-
-
-**Expected Output:**  
+The following deliverables were produced for this lab and are shown below: 
 
 1. Screenshot of **Custom_Map.html** in a browser
 3. Screenshots of the completed online tutorials
@@ -48,6 +42,7 @@ The following deliverables were produced for this lab:
 
 ### Screenshots
 **Task #1: Complete the First Three Online Leaflet Tutorials**
+
 *Leaflet Quick Start*
 ![Leaflet Quick Start Code](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/LeafletQuickStart_Code.png)
 ![Leaflet Quick Start Output](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/LeafletQuickStart_Output.png)
@@ -65,17 +60,30 @@ The following deliverables were produced for this lab:
 ![In Class Practice Code #2](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/LeafletInClassPractice_Code2.png)
 ![In Class Practice Output](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/LeafletInClassPractice_Output.png)
 
-**1. Zoom the map view to the detected location using locate method**
+**Task 2: Create a Custom Map**
+***For this assignment, I updated the coordinates of Kyle Field, Academic Building and O&M Building to better reflect the locations found on the openstreetview map.***
+*1. Zoom the map view to the detected location using locate method*
+![CustomMapLocateUser](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/CustomMapLocateUser.png)
 
-**draw a circle around the Kyle Field (coordinates: [30.6084, -96.3402]) with a popup**
-*I updated the coordinates for Kyle Field to better reflect the Openstreetmap*
-![CustomMapKyleField]()
+*2. Draw a circle around the Kyle Field (coordinates: [30.6084, -96.3402]) with a popup*
+![CustomMapKyleField](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/CustomMapKyleField.png)
+
+*3. Create custom icons with popups for **O&M Building** (coordinates: [30.6179, -96.3386]) and **Academic Building** (coordinates: [30.6159, -96.3413])*
+*O&M Building*
+
+![CustomMapOMBuilding](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/CustomMapOMBuilding.png)
+
+*Academic Building*
+![CustomMapAcademicBuilding](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/CustomMapAcademicBuilding.png)
+
+*4. Create an event which enables you to see the coordinates in a popup when you click on the map*
+![CustomMapEventCoords](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/CustomMapEventCoords.png)
+
+*5. Overview of College Station Markers*
+![CustomMapCSOverview](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/CustomMapCSOverview.png)
 
 ---
 
-### Items to Submit
-1. GitHub repository link containing all project files   
 
----
 
 ### References
