@@ -69,7 +69,7 @@ The following deliverables were produced for this lab:
 
 **draw a circle around the Kyle Field (coordinates: [30.6084, -96.3402]) with a popup**
 *I updated the coordinates for Kyle Field to better reflect the Openstreetmap*
-![In Class Practice Code #1](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/LeafletInClassPractice_Code1.png)
+![CustomMapKyleField]()
 
 ---
 
