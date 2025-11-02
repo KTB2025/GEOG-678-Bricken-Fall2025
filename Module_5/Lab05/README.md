@@ -61,11 +61,11 @@ The following deliverables were produced for this lab and are shown below:
 ![In Class Practice Output](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/LeafletInClassPractice_Output.png)
 
 **Task 2: Create a Custom Map**
+***For this assignment, I updated the coordinates of Kyle Field, Academic Building and O&M Building to better reflect the locations found on the openstreetview map.***
 *1. Zoom the map view to the detected location using locate method*
 ![CustomMapLocateUser](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/CustomMapLocateUser.png)
 
 *2. Draw a circle around the Kyle Field (coordinates: [30.6084, -96.3402]) with a popup*
-*I updated the coordinates for Kyle Field to better reflect the Openstreetmap*
 ![CustomMapKyleField](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/CustomMapKyleField.png)
 
 *3. Create custom icons with popups for **O&M Building** (coordinates: [30.6179, -96.3386]) and **Academic Building** (coordinates: [30.6159, -96.3413])*
