@@ -70,7 +70,7 @@ The following deliverables were produced for this lab and are shown below:
 
 *3. Create custom icons with popups for **O&M Building** (coordinates: [30.6179, -96.3386]) and **Academic Building** (coordinates: [30.6159, -96.3413])*
 *O&M Building*
-
+![CustomMapOMBuilding](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/CustomMapOMBuilding1.png)
 
 *Academic Building*
 ![CustomMapAcademicBuilding](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_5/Lab05/Images/CustomMapAcademicBuilding.png)
