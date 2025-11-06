@@ -6,36 +6,94 @@
 
 ### Assignment Overview
 
+his assignment demonstrates advanced web mapping techniques using Leaflet.js. It includes:
+
+- Completion of two Leaflet tutorials
+- A custom interactive map of the Texas A&M University (TAMU) campus
+- Integration of external GeoJSON data
+- Interactive styling and controls
+
 
 ---
 
 ### Tasks
-1. 
+
+### 1. Leaflet Tutorials
+
+- **Tutorial 1: Using GeoJSON with Leaflet**   
+  Created a working HTML page that loads and styles GeoJSON data with interactive mouse events.
+
+- **Tutorial 2: Interactive Choropleth Map** 
+  Built a choropleth map using Leaflet and GeoJSON, with dynamic styling, a legend, and info control.
+
+### 2. Custom TAMU Campus Map (60 pts)
+
+| Requirement | Implementation |
+|------------|----------------|
+| Webpage Title | `Kate Bricken TAMU Map` | 10 |
+| Zoom to TAMU Campus | Centered at `30.6188, -96.3365` with zoom level 15 |
+| External GeoJSON | Loaded from `tamuBuildings.js` |
+| Building Color | Styled with maroon (`#800000`) |
+| Hover Highlight | Gold outline and increased opacity on hover |
+| Click Zoom | Zooms to building bounds on click |
+| Info Control | Displays building name and abbreviation on hover |
+
+---
 
 
 ---
 
 ### Output
-The following deliverables were produced for this lab:
 
+e following deliverables were produced for this assignment:
 
-**Expected Output:**  
-
+- `index.html` – Custom TAMU campus map
+- `tamuBuildings.js` – External GeoJSON file with building data
+- `tutorial1.html` – GeoJSON tutorial implementation
+- `tutorial2.html` – Choropleth map tutorial implementation
+- `README.md` – Project documentation
 
 ---
 
 ### Screenshots
+**Task #1: Complete the Two Online Leaflet Tutorials**
 
-#### Code Snapshots
+*Using GeoJSON With Leaflet*
+![Leaflet Quick Start Code]()
+![Leaflet Quick Start Output]()
+
+*Interactive Chloropleth Map*
+![Mobile Leaflet Code]()
+![Mobile Leaflet Output]()
+
+*In Class Practice Code*
+![In Class Practice Code #1]()
+![In Class Practice Code #2]()
+![In Class Practice Output]()
+
+**Task 2: Create a Custom Map**
+*1. give your webpage a title e.g. "Yourname TAMU Map"*
+![CustomMapLocateUser]()
+
+*2. zoom the map view to TAMU Campus with an appropriate zoom level *
+![CustomMapKyleField]()
+
+*3. add external TAMU Building GeoJSON into your Map
+![CustomMapOMBuilding]()
+
+*4. change your building color to "Maroon" or any color you like*
+![CustomMapAcademicBuilding]()
+
+*5.make the buildings highlighted visually in some way when they are hovered with a mouse *
+![CustomMapEventCoords]()
+
+*6. define a click listener that zooms to the building*
+![CustomMapCSOverview]()
+
+*7. custom a Info Control to show the buidling's name and abbr when they are hovered with a mouse* 
+![CustomMapCSOverview]()
 
 
-#### Results Snapshots
-
-
----
-
-### Items to Submit
-1. GitHub repository link containing all project files   
 
 ---
 
