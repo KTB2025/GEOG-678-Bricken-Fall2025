@@ -92,10 +92,4 @@ e following deliverables were produced for this assignment:
 ---
 
 ### References
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 [Powerpoint Presentation by Debayan Mandal](Module_6\Lab06\Instructions\Lab6_MGsc.pptx)
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
