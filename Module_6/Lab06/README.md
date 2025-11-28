@@ -46,10 +46,10 @@ This assignment demonstrates advanced web mapping techniques using Leaflet.js. I
 
 The following deliverables were produced for this assignment:
 
-- `index.html` – Custom TAMU campus map
+- `CustomMap.html` – Custom TAMU campus map
 - `tamuBuildings.js` – External GeoJSON file with building data
-- `tutorial1.html` – GeoJSON tutorial implementation
-- `tutorial2.html` – Choropleth map tutorial implementation
+- `UsingGeoJSONwithLeaflet.html` – GeoJSON tutorial implementation
+- `InteractiveChloroplethMap.html` – Choropleth map tutorial implementation
 - `README.md` – Project documentation
 
 ---
@@ -83,20 +83,23 @@ The following deliverables were produced for this assignment:
 ![In Class Practice Output](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InClassExampleOutput.png)
 
 **Task 2: Create a Custom Map**
+
 *1. give your webpage a title e.g. "Yourname TAMU Map"*
 
-*2. zoom the map view to TAMU Campus with an appropriate zoom level *
+*2. zoom the map view to TAMU Campus with an appropriate zoom level*
+
 ![CustomMapTitleZoom](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/CustomMapTitleZoom.png)
 
-*3. add external TAMU Building GeoJSON into your Map
+*3. add external TAMU Building GeoJSON into your Map*
 
 *4. change your building color to "Maroon" or any color you like*
 
-*5.make the buildings highlighted visually in some way when they are hovered with a mouse *
+*5.make the buildings highlighted visually in some way when they are hovered with a mouse*
 
 *6. define a click listener that zooms to the building*
 
-*7. custom a Info Control to show the buidling's name and abbr when they are hovered with a mouse* 
+*7. Create a Info Control to show the buidling's name and abbr when they are hovered with a mouse* 
+
 **Example #1**
 ![CustomMapHighlightInfoControl](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/CustomMapHighlightInfoControl.png)
 
