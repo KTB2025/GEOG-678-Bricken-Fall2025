@@ -115,4 +115,6 @@ The following deliverables were produced for this assignment:
 ---
 
 ### References
-[Powerpoint Presentation by Debayan Mandal](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Instructions/Lab6_MGsc.pptx)
+1. [Powerpoint Presentation by Debayan Mandal](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Instructions/Lab6_MGsc.pptx)
+2. Using GeoJSON with Leaflet (https://leafletjs.com/examples/geojson/)
+3. Interactive Choropleth Map (https://leafletjs.com/examples/choropleth/)

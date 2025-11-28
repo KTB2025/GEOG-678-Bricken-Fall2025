@@ -56,4 +56,4 @@ Upload  .html files, css files(if you have), and other files related to the web 
 
 ### References
 [Video 1 - Lab 3](https://youtu.be/pwneCDfAlDI)
-[Powerpoint Presentation by Debayan Mandal](Module_3\Lab03\Instructions\Lab3_MGsc.pptx)
+[Powerpoint Presentation by Debayan Mandal](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_3/Lab03/Instructions/Lab3_MGsc.pptx)

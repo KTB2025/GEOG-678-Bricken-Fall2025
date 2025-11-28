@@ -86,4 +86,8 @@ The following deliverables were produced for this lab and are shown below:
 
 
 ### References
-[Powerpoint Presentation by Debayan Mandal](Module_5\Lab05\Instructions\Lab5_MGsc.pptx)
+1. [Powerpoint Presentation by Debayan Mandal](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_5/Lab05/Instructions/Lab5_MGsc.pptx)
+2. Leaflet Quick Start Guide (https://leafletjs.com/examples/quick-start/)
+3. Leaflet on Mobile (https://leafletjs.com/examples/mobile/)
+4. Markers With Custom Icons (https://leafletjs.com/examples/custom-icons/)
+
