@@ -103,7 +103,7 @@ The following deliverables were produced for this assignment:
 **Example #2**
 ![CustomMapHighlightInfoControlExample2](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_6/Lab06/Images/CustomMapHighlightInfoControl2.png)
 
-*In Class Practice Code*
+*Custom TAMU Map Code*
 ![CustomMapCode #1](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/CustomMapCode1.png)
 
 ![CustomMapCode #2](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/CustomMapCode2.png)
