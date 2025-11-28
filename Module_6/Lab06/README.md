@@ -6,7 +6,7 @@
 
 ### Assignment Overview
 
-his assignment demonstrates advanced web mapping techniques using Leaflet.js. It includes:
+This assignment demonstrates advanced web mapping techniques using Leaflet.js. It includes:
 
 - Completion of two Leaflet tutorials
 - A custom interactive map of the Texas A&M University (TAMU) campus
@@ -44,7 +44,7 @@ his assignment demonstrates advanced web mapping techniques using Leaflet.js. It
 
 ### Output
 
-e following deliverables were produced for this assignment:
+The following deliverables were produced for this assignment:
 
 - `index.html` – Custom TAMU campus map
 - `tamuBuildings.js` – External GeoJSON file with building data
@@ -58,23 +58,35 @@ e following deliverables were produced for this assignment:
 **Task #1: Complete the Two Online Leaflet Tutorials**
 
 *Using GeoJSON With Leaflet*
-![Using GeoJSON With Leaflet Code]()
-![Using GeoJSON With LeafletOutput]()
+![Using GeoJSON With Leaflet Code1](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/UsingGeoJSONWithLeafletCode1.png)
+![Using GeoJSON With Leaflet Code2](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/UsingGeoJSONWithLeafletCode2.png)
+![Using GeoJSON With Leaflet Code3](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/UsingGeoJSONWithLeafletCode3.png)
+![Using GeoJSON With Leaflet Code4](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/UsingGeoJSONWithLeafletCode4.png)
+![Using GeoJSON With Leaflet Code5](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/UsingGeoJSONWithLeafletCode5.png)
+![Using GeoJSON With Leaflet Code6](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/UsingGeoJSONWithLeafletCode6.png)
+
+![Using GeoJSON With LeafletOutput](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/UsingGeoJSONWithLeafletOutput.png)
 
 *Interactive Chloropleth Map*
-![Interactive Chloropleth Map Code]()
-![Interactive Chloropleth Map Output]()
+![Interactive Chloropleth Map Code1](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InteractiveChloroplethMapCode1.png)
+![Interactive Chloropleth Map Code2](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InteractiveChloroplethMapCode2.png)
+![Interactive Chloropleth Map Code3](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InteractiveChloroplethMapCode3.png)
+![Interactive Chloropleth Map Code4](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InteractiveChloroplethMapCode4.png)
+![Interactive Chloropleth Map Code5](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InteractiveChloroplethMapCode5.png)
+
+![Interactive Chloropleth Map Output](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InteractiveChloroplethMapOutput.png)
 
 *In Class Practice Code*
-![In Class Practice Code #1]()
-![In Class Practice Code #2]()
-![In Class Practice Output]()
+![In Class Practice Code #1](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InClassExampleCode1.png)
+![In Class Practice Code #2](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InClassExampleCode2.png)
+![In Class Practice Code #3](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InClassExampleCode3.png)
+![In Class Practice Output](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InClassExampleOutput.png)
 
 **Task 2: Create a Custom Map**
 *1. give your webpage a title e.g. "Yourname TAMU Map"*
 
 *2. zoom the map view to TAMU Campus with an appropriate zoom level *
-![CustomMapTitleZoom]()
+![CustomMapTitleZoom](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/CustomMapTitleZoom.png)
 
 *3. add external TAMU Building GeoJSON into your Map
 
@@ -85,11 +97,22 @@ e following deliverables were produced for this assignment:
 *6. define a click listener that zooms to the building*
 
 *7. custom a Info Control to show the buidling's name and abbr when they are hovered with a mouse* 
-![CustomMapHighlightInfoControl]()
+**Example #1**
+![CustomMapHighlightInfoControl](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/CustomMapHighlightInfoControl.png)
 
+**Example #2**
+![CustomMapHighlightInfoControlExample2](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/main/Module_6/Lab06/Images/CustomMapHighlightInfoControl2.png)
 
+*In Class Practice Code*
+![CustomMapCode #1](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/CustomMapCode1.png)
+
+![CustomMapCode #2](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/CustomMapCode2.png)
+
+![CustomMapCode #3](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/CustomMapCode3.png)
+
+![CustomMapCode #4](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/CustomMapCode4.png)
 
 ---
 
 ### References
-[Powerpoint Presentation by Debayan Mandal](Module_6\Lab06\Instructions\Lab6_MGsc.pptx)
+[Powerpoint Presentation by Debayan Mandal]([Module_6\Lab06\Instructions\Lab6_MGsc.pptx](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Instructions/Lab6_MGsc.pptx))
