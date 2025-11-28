@@ -77,10 +77,10 @@ The following deliverables were produced for this assignment:
 ![Interactive Chloropleth Map Output](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InteractiveChloroplethMapOutput.png)
 
 *In Class Practice Code*
-![In Class Practice Code #1](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InClassExampleCode1.png)
-![In Class Practice Code #2](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InClassExampleCode2.png)
-![In Class Practice Code #3](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InClassExampleCode3.png)
-![In Class Practice Output](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/be303236ebf540dad2f876d5f429f20d32878479/Module_6/Lab06/Images/InClassExampleOutput.png)
+![In Class Practice Code #1]
+![In Class Practice Code #2]
+![In Class Practice Code #3]
+![In Class Practice Output]
 
 **Task 2: Create a Custom Map**
 
