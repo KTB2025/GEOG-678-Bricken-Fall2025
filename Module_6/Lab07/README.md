@@ -40,3 +40,4 @@ The following deliverables were produced for this lab:
 ---
 
 ### References
+[Powerpoint Presentation by Debayan Mandal](Module_7\Lab07\Instructions\Lab7_MGsc.pptx)

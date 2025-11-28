@@ -86,3 +86,4 @@ The following deliverables were produced for this lab and are shown below:
 
 
 ### References
+[Powerpoint Presentation by Debayan Mandal](Module_5\Lab05\Instructions\Lab5_MGsc.pptx)

@@ -62,3 +62,4 @@ The following deliverables were produced for this lab:
 ---
 
 ### References
+[Powerpoint Presentation by Debayan Mandal](Module_4\Lab04\Instructions\Lab4_MGsc.pptx)
