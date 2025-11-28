@@ -48,17 +48,14 @@ The following deliverables must be produced:
 - Upload screenshots & links to GitHub  
 - Submit the GitHub link on Canvas  
 
-**Example Placeholders:**
-
-![2D-Story Map](https://arcg.is/0PXWbP)  
-![3D-Story Map]()
 
 ---
 
-### Screenshots
+### Screenshots & Links
 
-_Add your StoryMap screenshots here._
-
+**2D-StoryMap**
+1. Image
+2. Link:(https://arcg.is/0PXWbP)  
 ---
 
 ### Items to Submit
