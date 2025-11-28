@@ -58,12 +58,12 @@ e following deliverables were produced for this assignment:
 **Task #1: Complete the Two Online Leaflet Tutorials**
 
 *Using GeoJSON With Leaflet*
-![Leaflet Quick Start Code]()
-![Leaflet Quick Start Output]()
+![Using GeoJSON With Leaflet Code]()
+![Using GeoJSON With LeafletOutput]()
 
 *Interactive Chloropleth Map*
-![Mobile Leaflet Code]()
-![Mobile Leaflet Output]()
+![Interactive Chloropleth Map Code]()
+![Interactive Chloropleth Map Output]()
 
 *In Class Practice Code*
 ![In Class Practice Code #1]()
@@ -72,28 +72,24 @@ e following deliverables were produced for this assignment:
 
 **Task 2: Create a Custom Map**
 *1. give your webpage a title e.g. "Yourname TAMU Map"*
-![CustomMapLocateUser]()
 
 *2. zoom the map view to TAMU Campus with an appropriate zoom level *
-![CustomMapKyleField]()
+![CustomMapTitleZoom]()
 
 *3. add external TAMU Building GeoJSON into your Map
-![CustomMapOMBuilding]()
 
 *4. change your building color to "Maroon" or any color you like*
-![CustomMapAcademicBuilding]()
 
 *5.make the buildings highlighted visually in some way when they are hovered with a mouse *
-![CustomMapEventCoords]()
 
 *6. define a click listener that zooms to the building*
-![CustomMapCSOverview]()
 
 *7. custom a Info Control to show the buidling's name and abbr when they are hovered with a mouse* 
-![CustomMapCSOverview]()
+![CustomMapHighlightInfoControl]()
 
 
 
 ---
 
 ### References
+[Powerpoint Presentation by Debayan Mandal](Module_6\Lab06\Instructions\Lab6_MGsc.pptx)
