@@ -51,7 +51,7 @@ The following deliverables must be produced:
 **Example Placeholders:**
 
 ![2D-Story Map](https://arcg.is/0PXWbP)  
-![3D-Story Map]()
+![3D-Story Map](https://arcg.is/19PObH)
 
 ---
 
