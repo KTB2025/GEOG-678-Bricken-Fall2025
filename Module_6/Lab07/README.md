@@ -61,7 +61,7 @@ The following deliverables must be produced:
 ![2D-Story Map 4](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/2DStoryMap%20%234.png)  
 ![2D-Story Map 5](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/2DStoryMap%20%235.png)  
 
-Link:https://arcg.is/0PXWbP  
+Link: [Texas A&M University Traditions](https://storymaps.arcgis.com/stories/79033b12fa17417e990d546514734681)
 
 ---
 
@@ -73,8 +73,7 @@ Link:https://arcg.is/0PXWbP
 ![3D-Story Map 5](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/3DStoryMap%20%235.png) 
 ![3D-Story Map 6](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/3DStoryMap%20%236.png)
 
-Link: https://arcg.is/19PObH
-
+Link: [The Last Week Before the World Changed](https://storymaps.arcgis.com/stories/72505fe7b40741039936e5790f72605b)
    
 ---
 
