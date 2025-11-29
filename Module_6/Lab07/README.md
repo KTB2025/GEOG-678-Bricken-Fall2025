@@ -55,10 +55,11 @@ The following deliverables must be produced:
 
 ---
 
-### Screenshots
+### Screenshots & Links
 
-_Add your StoryMap screenshots here._
-
+**2D-StoryMap**
+1. Image
+2. Link:(https://arcg.is/0PXWbP)  
 ---
 
 ### Items to Submit
