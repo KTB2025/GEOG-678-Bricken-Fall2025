@@ -48,18 +48,34 @@ The following deliverables must be produced:
 - Upload screenshots & links to GitHub  
 - Submit the GitHub link on Canvas  
 
-**Example Placeholders:**
 
-![2D-Story Map](https://arcg.is/0PXWbP)  
-![3D-Story Map](https://arcg.is/19PObH)
 
 ---
 
 ### Screenshots & Links
 
 **2D-StoryMap**
-1. Image
-2. Link:(https://arcg.is/0PXWbP)  
+![2D-Story Map 1](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/2DStoryMap%20%231.png)
+![2D-Story Map 2](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/2DStoryMap%20%232.png)  
+![2D-Story Map 3](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/2DStoryMap%20%233.png)  
+![2D-Story Map 4](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/2DStoryMap%20%234.png)  
+![2D-Story Map 5](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/2DStoryMap%20%235.png)  
+
+Link:https://arcg.is/0PXWbP  
+
+---
+
+**3D-StoryMap**
+![3D-Story Map 1](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/3DStoryMap%20%231.png)
+![3D-Story Map 2](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/3DStoryMap%20%232.png)  
+![3D-Story Map 3](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/3DStoryMap%20%233.png)  
+![3D-Story Map 4](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/3DStoryMap%20%234.png)  
+![3D-Story Map 5](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/3DStoryMap%20%235.png) 
+![3D-Story Map 6](https://github.com/KTB2025/GEOG-678-Bricken-Fall2025/blob/fb49db58c2cbbf917db4791bf7b2900cc3e313ea/Module_6/Lab07/Images/3DStoryMap%20%236.png)
+
+Link: https://arcg.is/19PObH
+
+   
 ---
 
 ### Items to Submit
