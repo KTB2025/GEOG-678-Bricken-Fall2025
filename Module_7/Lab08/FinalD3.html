@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+  D3.js Grouped Bar Chart example found at:
+    https://d3-graph-gallery.com/graph/barplot_grouped_basicWide.html
+  Modified to depict weekly temperature forecast data in College Station.
+-->
+
+<meta charset="utf-8">
+<script src="https://d3js.org/d3.v4.js"></script>
+<h2 style="text-align:center;">College Station Weekly Temperature Forecast</h2>
+<h3 style="text-align:center;">by Kate Bricken</h3>
+<div id="my_dataviz"></div>
+<script>
+
+// set the dimensions and margins of the graph
+var margin = {top: 30, right: 30, bottom: 40, left: 60},
+    width = 500 - margin.left - margin.right,
+    height = 350 - margin.top - margin.bottom;
+
+// append the svg object to the page
+var svg = d3.select("#my_dataviz")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+// -------- DATA --------
+var data = [
+  { day: "Sat", High: 82, Low: 67 },
+  { day: "Sun", High: 81, Low: 59 },
+  { day: "Mon", High: 81, Low: 50 },
+  { day: "Tue", High: 70, Low: 47 },
+  { day: "Wed", High: 77, Low: 51 },
+  { day: "Thu", High: 78, Low: 60 },
+  { day: "Fri", High: 79, Low: 66 },
+  { day: "Sat #2", High: 80, Low: 66 }
+];
+
+// Subgroups (High / Low)
+var subgroups = ["High", "Low"];
+
+// Groups (Days)
+var groups = data.map(function(d){ return d.day; });
+
+// X axis
+var x = d3.scaleBand()
+  .domain(groups)
+  .range([0, width])
+  .padding([0.2]);
+
+svg.append("g")
+  .attr("transform", "translate(0," + height + ")")
+  .call(d3.axisBottom(x).tickSize(0));
+
+// X-axis label
+svg.append("text")
+  .attr("x", width / 2)
+  .attr("y", height + 35)
+  .attr("text-anchor", "middle")
+  .attr("font-size", "12px")
+  .text("Day of the Week");
+
+
+// Y axis
+var y = d3.scaleLinear()
+  .domain([0, 90]) // temperature range
+  .range([height, 0]);
+
+svg.append("g")
+  .call(d3.axisLeft(y));
+
+// Y-axis label
+svg.append("text")
+  .attr("transform", "rotate(-90)")
+  .attr("x", -height / 2)
+  .attr("y", -45)
+  .attr("text-anchor", "middle")
+  .attr("font-size", "12px")
+  .text("Temperature (°F)");
+
+
+// Subgroup positioning
+var xSubgroup = d3.scaleBand()
+  .domain(subgroups)
+  .range([0, x.bandwidth()])
+  .padding([0.05]);
+
+// Colors
+var color = d3.scaleOrdinal()
+  .domain(subgroups)
+  .range(["#e41a1c", "#377eb8"]);
+
+// Bars
+svg.append("g")
+  .selectAll("g")
+  .data(data)
+  .enter()
+  .append("g")
+    .attr("transform", function(d) {
+      return "translate(" + x(d.day) + ",0)";
+    })
+  .selectAll("rect")
+  .data(function(d) {
+    return subgroups.map(function(key) {
+      return { key: key, value: d[key] };
+    });
+  })
+  .enter()
+  .append("rect")
+    .attr("x", function(d) { return xSubgroup(d.key); })
+    .attr("y", function(d) { return y(d.value); })
+    .attr("width", xSubgroup.bandwidth())
+    .attr("height", function(d) { return height - y(d.value); })
+    .attr("fill", function(d) { return color(d.key); });
+
+</script>

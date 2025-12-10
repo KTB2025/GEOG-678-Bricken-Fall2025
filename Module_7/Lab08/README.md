@@ -4,39 +4,49 @@
 **Course:** GEOG 678 - Web GIS
 **Assignment Due Date:** December 8th 2025
 
+---
+
 ### Assignment Overview
+
 
 
 ---
 
 ### Tasks
-1. 
+
+## **1. Dashboard**
+
+ 
+
+---
+
+## **2. **
+
+## **3. **
 
 
 ---
 
 ### Output
-The following deliverables were produced for this lab:
 
+The following deliverables must be produced:
 
-**Expected Output:**  
+- 
 
 
 ---
 
-### Screenshots
+### Screenshots & Links
 
-#### Code Snapshots
-
-
-#### Results Snapshots
-
-
+*https://www.arcgis.com/apps/dashboards/95e2a337b5634c15baa5a2b15447a4ea
 ---
 
 ### Items to Submit
-1. GitHub repository link containing all project files   
 
+1. 
 ---
 
 ### References
+
+*Video
+
